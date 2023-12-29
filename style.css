@@ -1,0 +1,322 @@
+{
+  box-sizing: border-box;
+}
+
+.white-page {
+  padding: 0%;
+  margin: 0%;
+  background-color: aqua;
+}
+
+.random {
+text-align: center;
+padding-top: 350px;
+font-size: xx-large;
+font-weight: bolder;
+
+}
+
+.main-page {
+  padding: 0%;
+  margin: 0%;
+}
+.grey {
+  background-color: grey;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-bottom-left-radius: 5px;
+}
+.red {
+  background-color: red;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+
+.orange {
+  background-color: orange;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+.yellow {
+  background-color: yellow;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+.green {
+  background-color: green;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+.light-blue {
+  background-color: rgb(14, 106, 129);
+  width: 80px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+.dark-blue {
+  background-color: blue;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-bottom-right-radius: 5px;
+}
+/*.nav-link :hover {
+  color: blue;  
+  background-color: blue;
+}*/
+/*Hover is not working, would have to try something using a javaScript function*/
+.rainbow {
+  display: flex;
+  height: 5px;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 200px;
+  border-top: 1px solid rgba(90, 88, 88, 0.342);
+}
+li {
+ padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: none;
+  width: 80px;
+  text-align: center;
+  font-size: small;
+}
+
+ul {
+  background-color: white;
+}
+
+.fixed {
+  position: fixed;
+  top:0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-list {
+  display:flex;
+  height: 67px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 200px;
+}
+
+.nav-link {
+text-decoration: none;
+}
+
+button {
+color: orange;
+}
+
+.box-1 {
+  height: 50px;
+  font-size: medium;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  color: grey;
+}
+.post {
+  background-color: grey;
+}
+
+input {
+  height: 25px;
+  width: 200px;
+}
+
+.btn-search {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.Pokemon-Characters {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 20px;
+column-gap: 5px;
+width: 0%;
+padding-left: 200px;
+}
+.nav-list-item {
+  margin: 0;
+  padding: 0;
+}
+.drop-down {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 250px;
+  padding-left: 3px;
+  padding-right: 10px;
+}
+.btn-surprise {
+  background-color: rgb(14, 114, 139);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.group {
+  display:flex;
+  justify-content:center;
+}
+
+.box-2 {
+  background-color: rgb(17, 17, 17);
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  display: flex;
+}
+h2 {
+  color: white;
+}
+
+
+p {
+  color: white;
+}
+
+.green-btn-large {
+  background-color: rgb(88, 226, 84);
+  color: white;
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.split-half {
+  padding-top: 40px;
+  padding-left: 40px;
+} 
+
+.box-3 {
+  background-color: rgba(61, 36, 23, 0.664);
+  color: white;
+  text-align: center;
+ padding-top: 40px;
+ padding-bottom: 10px;
+}
+
+.box-4 {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  padding-left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.discription {
+  background-color: white;
+  padding-left: 10px;
+}
+  
+.cube {
+  background-color: rgb(230, 228, 228);
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.load-more {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btn-load-more {
+  background-color: rgb(14, 114, 139);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-green {
+  background-color: rgb(92, 189, 35);
+  color: black;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+
+.btn-blue {
+  background-color: rgb(31, 31, 155);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+.btn-purple {
+  background-color: rgb(134, 28, 134);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+.btn-orange {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+
+.btn-blue-grey {
+  background:linear-gradient(180deg, rgb(59, 235, 235) 50%, rgb(180, 177, 177) 50%);
+  color: black;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+
+.base-of-page {
+  height: 300px;
+}

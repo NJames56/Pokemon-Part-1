@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="main-page">
+    <div class="fixed">
+        <nav>
+            <ul class="nav-list">
+            <li class="list-item grey-hover">
+            <a class="nav-link" href="index.html">Home</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="Pokedex.html">Pokédex</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="/VG&A">Video Games & Apps</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="/TCG">Trading Card Game</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="/Pokemon TV">Pokémon TV</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="/Play! Pokemon Events">Play! Pokémon Events</a></li>
+            <li class="list-item">
+                <a class="nav-link" href="/News">News</a></li>
+            </li>
+            </ul>
+                </nav>
+                
+            <div class="rainbow">
+            <div class="grey"></div>
+            <div class="red"></div>
+            <div class="orange"></div>
+            <div class="yellow"></div>
+            <div class="green"></div>
+            <div class="light-blue"></div>
+            <div class="dark-blue"></div>
+            </div>
+</div>
+            <div class="block box-1">   
+                <h1>Pokédex</h1>
+            </div>
+            <div class="block box-2">
+            <div class="split">
+            <h2>Name or Number</h2>
+            <input type="text" id="myInput" onkeyup="myFunction()"/> 
+            <button class="btn-search">Search</button>
+             <p>Use the Advanced Search to explore Pokémon by type,</p> 
+                <p>weakness, Ability, and more!</p>
+            </div>
+            <div class="split-half">
+            <button class= "green-btn-large">Search for a Pokémon by name or using its National Pokédex number.</button>
+            </div>
+            </div>
+            <div class="block box-3"
+            <h3>Show Advanced Search</h3>
+            </div>
+        
+            <div class="block box-4">
+            <button class="btn-surprise">Surprise Me!</button>
+            <div class="flex-end">
+            <h4> Sort By</h4>
+            <select class="drop-down">
+                <option value="LN">Lowest Number (First)</option>
+                <option value="HN">Highest Number (First)</option>
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+            </select></div></div>
+            <div class="Pokemon-Characters">
+
+            
+            <div class="cube">
+            <img src="Bulbasaur.png" alt="Bulbasaur" width="300" height="200">
+            <div class="discription">
+        <h6>#0001</h6>
+        <h3 id="name">Bulbasaur</h3>
+        <button class="btn btn-green">Grass</button>
+        <button class="btn btn-purple">Poison</button>
+             </div>
+            </div>
+        <div class="cube">
+            <img src="Ivysaur.png" alt="Ivysaur" width="300" height="200">
+            <div class="discription">
+            <h6>#0002</h6>
+            <h3 id="name">Ivysaur</h3>
+            <button class="btn btn-green">Grass</button>
+            <button class="btn btn-purple">Poison</button>
+            </div>
+            </div>
+
+            <div class="cube">
+            <img src="Venusaur.png" alt="Venusaur" width="300" height="200">
+            <div class="discription">
+            <h6>#0003</h6>
+            <h3 id="name">Venusaur</h3>
+            <button class="btn btn-green">Grass</button>
+            <button class="btn btn-purple">Poison</button>
+            </div>
+            </div>
+       
+            <div class="cube">
+            <img src="Charmander.png" alt="Charmander" width="300" height="200">
+            <div class="discription">
+            <h6>#0004</h6>
+            <h3 id="name">Charmander</h3>
+            <button class="btn btn-orange">Fire</button>
+            </div>
+            </div>
+        
+            <div class="cube">
+            <img src="Charmeleon.png" alt="Charmeleon" width="300" height="200">
+            <div class="discription">
+            <h6>#0005</h6>
+            <h3 id="name">Charmeleon</h3>
+            <button class="btn btn-orange">Fire</button>
+            </div>
+            </div>
+
+            <div class="cube">
+            <img src="Charizard.png" alt="Charizard" width="300" height="200">
+            <div class="discription">
+            <h6>#0006</h6>
+            <h3 id="name">Charizard</h3>
+            <button class="btn btn-orange">Fire</button>
+            <button class="btn btn-blue-grey">Flying</button>
+            </div>
+            </div>
+       
+            <div class="cube">
+            <img src="Squirtle.png" alt="Squirtle" width="300" height="200">
+            <div class="discription">
+            <h6>#0007</h6>
+            <h3 id="name" >Squirtle</h3>
+            <button class="btn btn-blue">Water</button>
+            </div>
+            </div>
+
+            <div class="cube">
+            <img src="Wartortle.png" alt="Wartortle" width="300" height="200">
+            <div class="discription">
+            <h6>#0008</h6>
+            <h3 id="name">Wartortle</h3>
+            <button class="btn btn-blue">Water</button>
+            </div>
+            </div>
+
+            <div class="cube">
+            <img src="Blastoise.png" alt="Blastoise" width="300" height="200">
+            <div class="discription">
+            <h6>#0009</h6>
+            <h3 id="name">Blastoise</h3>
+            <button class="btn btn-blue">Water</button>
+            </div>
+            </div>
+           
+            
+        </div>
+        <div class="load-more">
+    <button class="blue btn-load-more">Load more Pokémon</button></div>
+
+    <div class="base-of-page"></div>
+    <script src="./Experiments.js"></script>
+ </body>
+</html>
